@@ -20,3 +20,4 @@ module.exports = {
     // Data for dynamic email
     dynamicEmail: () => `innatest${Date.now()}@gmail.com`,
 };
+ 

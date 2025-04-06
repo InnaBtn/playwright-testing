@@ -32,3 +32,4 @@ export const locators = {
     passwordFieldSignIn: '#signinPassword',
     loginButton: 'button.btn.btn-primary:has-text("Login")'
 }
+ 

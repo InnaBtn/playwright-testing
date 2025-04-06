@@ -1,7 +1,6 @@
-
 import { locators } from './locators/registrationLocators.js';
 import { test, expect } from '../fixtures.js';
-const testRegistrationData = require('./testdata/testRegistrationData');
+const testRegistrationData = require('./testdata/testRegistrationData.js');
 
 test.beforeEach(async ({ page }) => {
     await page.goto('https://qauto.forstudy.space/');
@@ -146,7 +145,3 @@ test.describe('Registration Form Tests', () => {
 
     });
 });
-
-
-
-
