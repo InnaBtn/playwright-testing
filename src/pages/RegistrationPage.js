@@ -5,7 +5,7 @@ import { expect } from '@playwright/test';
 
 export class RegistrationPage extends BasePage {
     constructor(page) {
-        super(page, 'https://guest:welcome2qauto@qauto.forstudy.space/');
+        super(page, process.env.BASE_URL);
         this.signUpBtn = '.hero-descriptor_btn.btn.btn-primary';
         this.registrationForm = new RegistrationForm(page);
         this.myProfileButton = this.page.locator('button:has-text("My profile")');
