@@ -1,0 +1,35 @@
+import { register } from "module";
+
+export const locators = {
+    signUpButton: '.hero-descriptor_btn.btn.btn-primary',
+    loginButton: 'button.header_signin',
+    userNameInputReg: '#signupName',
+    lastNameInputReg: '#signupLastName',
+    emailInputReg: '#signupEmail',
+    passwordInputReg: '#signupPassword',
+    repeatPasswordInput: '#signupRepeatPassword',
+    registerButton: 'button:has-text("Register")',
+    crossButton: 'button[aria-label="Close"]',
+    textRegistrationTitle: '.modal-header',
+    clickOut: '.modal-header',
+    invalidNameMessage: 'p:has-text("Name is invalid")',
+    invalidNameLengthMessage: 'p:has-text("Name has to be from 2 to 20 characters long")',
+    nameRequiredMessage: 'p:has-text("Name required")',
+    invalidLastnameMessage: 'p:has-text("Last name is invalid")',
+    invalidLastnameLengthMessage: 'p:has-text("Last name has to be from 2 to 20 characters long")',
+    lastnameRequiredMessag: 'p:has-text("Last name required")',
+    invalidEmailMessage: 'p:has-text("Email is incorrect")',
+    emailRequiredMessage: 'p:has-text("Email required")',
+    invalidPasswordMessage: 'p:has-text("Password has to be from 8 to 15 characters long and contain at least one integer, one capital, and one small letter")',
+    passwordRequiredMessage: 'p:has-text("Password required")',
+    passwordsNotMatchMessage: 'p:has-text("Passwords do not match")',
+    repeatPasswordRequiredMessage: 'p:has-text("Re-enter password required")',
+    clickRegisterButton: 'button:has-text("Register")',
+    myProfileButton: '#userNavDropdown',
+    logOutButton: 'button.dropdown-item.user-nav_link:has-text("Logout")',
+    SignInButton: 'button.header_signin',
+    emailFieldSignIn: '#signinEmail',
+    passwordFieldSignIn: '#signinPassword',
+    loginButton: 'button.btn.btn-primary:has-text("Login")'
+}
+ 
