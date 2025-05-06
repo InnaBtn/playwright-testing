@@ -1,0 +1,25 @@
+{
+  "name": "playwright-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.11"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnaBtn/playwright-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnaBtn/playwright-testing/issues"
+  },
+  "homepage": "https://github.com/InnaBtn/playwright-testing#readme"
+}
